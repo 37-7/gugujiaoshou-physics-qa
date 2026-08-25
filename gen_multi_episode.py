@@ -591,16 +591,19 @@ a{color:#1a5276;text-decoration:none}a:hover{text-decoration:underline}
 .ep-banner .badge{background:var(--accent);color:#fff;font-weight:700;border-radius:8px;padding:3px 12px;font-size:14px}
 .ep-banner .meta{color:var(--sub);font-size:12px}
 
-.section{margin-top:26px;scroll-margin-top:70px}
-.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:4px}
-.sec-head .dot{width:13px;height:13px;border-radius:4px;flex:none}
-.sec-head h2{font-size:17px;font-weight:700}
-.sec-head .badge{font-size:11.5px;color:var(--sub);background:#fff;border:1px solid var(--line);border-radius:12px;padding:2px 10px}
-.sec-desc{color:var(--sub);font-size:12.5px;margin:0 0 12px 23px}
+.section{margin-top:30px;scroll-margin-top:70px}
+.sec-head{display:flex;align-items:center;gap:10px;margin-bottom:6px;padding:9px 14px;border-left:4px solid var(--sec-color,#1f4e79);background:#fff;border-radius:0 4px 4px 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.sec-head .dot{width:11px;height:11px;border-radius:2px;flex:none}
+.sec-head h2{font-size:16px;font-weight:700}
+.sec-head .badge{font-size:11.5px;color:var(--sub);background:#f4f6f8;border:1px solid var(--line);border-radius:10px;padding:1px 9px}
+.sec-desc{color:var(--sub);font-size:12.5px;margin:0 0 12px 14px}
+.ep-subhead{display:flex;align-items:center;gap:8px;margin:14px 0 8px;padding:5px 12px;background:#eef3f8;border-left:3px solid var(--accent2);border-radius:0 3px 3px 0;font-size:13px}
+.ep-subhead .epn{font-weight:700;color:var(--accent)}
+.ep-subhead .c{font-size:11.5px;color:var(--sub)}
 
-.c-card{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:16px 18px;margin-bottom:14px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.c-card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--card-accent,#cbd2d9);border-radius:5px;padding:16px 18px;margin-bottom:14px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
 .c-top{display:flex;align-items:center;gap:10px}
-.avatar{width:38px;height:38px;border-radius:50%;background:#e8eaf0;flex:none;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#6b7076;font-weight:600}
+.avatar{width:38px;height:38px;border-radius:50%;background:#e8eaf0;border:2px solid var(--avatar-accent,#cbd2d9);flex:none;overflow:hidden;display:flex;align-items:center;justify-content:center;color:#6b7076;font-weight:600}
 .avatar img{width:100%;height:100%;object-fit:cover;display:block}
 .uname{font-weight:600;font-size:13.5px}
 .tag{font-size:10.5px;color:var(--accent2);border:1px solid #b8c9dc;background:#eef3f8;border-radius:4px;padding:0 5px;margin-left:6px;flex:none}
@@ -610,19 +613,20 @@ a{color:#1a5276;text-decoration:none}a:hover{text-decoration:underline}
 .c-msg .mention{color:#61666d}
 .c-msg a{word-break:break-all}
 .c-msg.long .full{display:none}
+.math{background:rgba(46,109,164,.09);padding:1px 4px;border-radius:3px;margin:0 1px}
 .morebtn{display:inline-block;margin-top:4px;color:#1a5276;font-size:12.5px;cursor:pointer;white-space:nowrap}
 .img-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:8px;margin-top:12px}
-.img-grid img{width:100%;height:150px;object-fit:cover;border-radius:8px;cursor:zoom-in;background:#f4f5f7;border:1px solid var(--line);transition:.15s}
+.img-grid img{width:100%;height:150px;object-fit:cover;border-radius:6px;cursor:zoom-in;background:#f4f5f7;border:1px solid var(--line);transition:.15s}
 .img-grid img:hover{transform:scale(1.02);box-shadow:0 3px 10px rgba(0,0,0,.12)}
 .img-grid.one img{height:auto;max-height:420px;object-fit:contain}
-.img-miss{grid-column:1/-1;font-size:12px;color:#b8bcc2;background:#f8f9fb;border:1px dashed var(--line);border-radius:8px;padding:10px;text-align:center}
+.img-miss{grid-column:1/-1;font-size:12px;color:#b8bcc2;background:#f8f9fb;border:1px dashed var(--line);border-radius:6px;padding:10px;text-align:center}
 
-.replies{margin-top:14px;border-top:1px dashed var(--line);padding-top:6px}
+.replies{margin-top:14px;border-top:1px solid var(--line);border-left:3px solid #e2e6ea;background:#fafbfc;padding:6px 12px 8px;border-radius:0 4px 4px 0}
 .replies-head{font-size:12px;color:var(--sub);margin:4px 0 8px;display:flex;align-items:center;gap:6px}
 .replies-head .count{font-weight:600;color:#2e6da4}
-.r-item{display:flex;gap:9px;padding:9px 8px;border-radius:9px}
-.r-item:hover{background:#f8f9fb}
-.r-item .avatar{width:30px;height:30px}
+.r-item{display:flex;gap:9px;padding:9px 8px;border-radius:6px}
+.r-item:hover{background:#f1f3f5}
+.r-item .avatar{width:30px;height:30px;border:1.5px solid #cbd2d9}
 .r-box{flex:1;min-width:0}
 .r-top{display:flex;align-items:center;gap:6px}
 .r-top .uname{font-size:12.5px}
@@ -716,9 +720,12 @@ a{color:#1a5276;text-decoration:none}a:hover{text-decoration:underline}
       <div class="sub" id="heroSub"></div>
       <div class="stats" id="statsRow"></div>
       <div class="toolbar">
+        <button class="tbtn on" id="viewEp">按【期数】</button>
+        <button class="tbtn" id="viewMod">按【知识点】</button>
+        <span style="width:1px;height:18px;background:var(--line)"></span>
         <button class="tbtn" id="favToggle">★ 收藏夹 <span id="favCount">0</span></button>
         <button class="tbtn" id="seenToggle">☑ 已阅历史 <span id="seenCount">0</span></button>
-        <span style="font-size:12px;color:var(--sub)">提示：题目右上角可收藏 / 标记已阅；已阅的题目将不再显示。</span>
+        <span style="font-size:12px;color:var(--sub)">卡片左侧色条=知识点，色环=楼主；公式淡蓝底。</span>
       </div>
       <div class="searchbox">
         <span class="ico">⌕</span>
@@ -766,7 +773,9 @@ a{color:#1a5276;text-decoration:none}a:hover{text-decoration:underline}
 <script src="assets/katex/contrib/auto-render.min.js"></script>
 <script>
 const DATA = __DATA__;
+let viewMode = 'episode';  // 'episode' 按期数 | 'module' 按知识点
 let currentEp = 'all';
+let currentMod = 'all';
 let lbList = [], lbIdx = 0;
 let lbScale = 1, lbRot = 0, lbTx = 0, lbTy = 0;
 
@@ -776,20 +785,31 @@ function getLS(k){ try { return JSON.parse(localStorage.getItem(k)) || []; } cat
 function setLS(k, v){ localStorage.setItem(k, JSON.stringify(v)); }
 let favIds = getLS(LS_FAV), seenIds = getLS(LS_SEEN);
 
-/* ---------- 期数 Tab ---------- */
+/* ---------- Tab（随视图切换：期数 or 知识点） ---------- */
 const tabsEl = document.getElementById('tabs');
 function buildTabs() {
   tabsEl.innerHTML = '';
-  const mk = (key, label) => {
+  const mk = (key, label, activeKey) => {
     const d = document.createElement('div');
-    d.className = 'tab' + (currentEp === key ? ' active' : '');
+    d.className = 'tab' + (activeKey === key ? ' active' : '');
     d.innerHTML = label;
-    d.onclick = () => { currentEp = key; buildTabs(); render(); };
+    d.onclick = () => {
+      if (viewMode === 'episode') currentEp = key; else currentMod = key;
+      buildTabs(); render();
+    };
     tabsEl.appendChild(d);
   };
-  const allQ = DATA.episodes.reduce((s, e) => s + e.total_q, 0);
-  mk('all', '全部 <span class="n">' + allQ + '问</span>');
-  DATA.episodes.forEach(e => mk(e.key, e.title + ' <span class="n">' + e.total_q + '问</span>'));
+  if (viewMode === 'episode') {
+    const allQ = DATA.total_q;
+    mk('all', '全部期数 <span class="n">' + allQ + '问</span>', currentEp);
+    DATA.episodes.forEach(e => mk(e.key, e.title + ' <span class="n">' + e.total_q + '问</span>', currentEp));
+  } else {
+    mk('all', '全部知识点 <span class="n">' + DATA.total_q + '问</span>', currentMod);
+    DATA.modules.forEach(m => {
+      const cnt = DATA.episodes.reduce((s, e) => s + e.comments.filter(c => c.module === m.key).length, 0);
+      if (cnt > 0) mk(m.key, m.name + ' <span class="n">' + cnt + '问</span>', currentMod);
+    });
+  }
 }
 
 /* ---------- 渲染 ---------- */
@@ -817,9 +837,11 @@ function makeMsg(wrap, text, isReply) {
   }
 }
 
-function renderCommentCard(c, isAll) {
+function renderCommentCard(c, modColor) {
   const card = document.createElement('div');
   card.className = 'c-card';
+  card.style.setProperty('--card-accent', modColor);
+  card.style.setProperty('--avatar-accent', modColor);
   card.dataset.key = (c.uname + ' ' + c.raw_message).toLowerCase();
   card.dataset.id = c.id;
   const top = document.createElement('div');
@@ -918,6 +940,7 @@ function renderModuleSection(epKey, mod, cs, isAll) {
   const sec = document.createElement('section');
   sec.className = 'section';
   sec.id = (isAll ? epKey + '-' : '') + mod.key;
+  sec.style.setProperty('--sec-color', mod.color);
   const nReply = cs.reduce((s, c) => s + c.replies.length, 0);
   const nImg = cs.reduce((s, c) => s + c.images.length, 0);
   const head = document.createElement('div');
@@ -929,7 +952,7 @@ function renderModuleSection(epKey, mod, cs, isAll) {
   desc.className = 'sec-desc';
   desc.textContent = mod.desc;
   sec.appendChild(desc);
-  cs.forEach(c => sec.appendChild(renderCommentCard(c, isAll)));
+  cs.forEach(c => sec.appendChild(renderCommentCard(c, mod.color)));
   return sec;
 }
 
@@ -939,59 +962,111 @@ function visComments(e) {
 }
 
 function render() {
-  const isAll = currentEp === 'all';
   sectionsEl.innerHTML = '';
   navEl.innerHTML = '';
   statsRow.innerHTML = '';
   document.getElementById('search').value = '';
   document.getElementById('searchHint').textContent = '';
 
-  const eps = isAll ? DATA.episodes : DATA.episodes.filter(e => e.key === currentEp);
   let tq = 0, tr = 0, ti = 0;
 
-  if (isAll) {
-    navLabel.textContent = '期数导航';
-    eps.forEach(e => {
+  if (viewMode === 'episode') {
+    const isAll = currentEp === 'all';
+    const eps = isAll ? DATA.episodes : DATA.episodes.filter(e => e.key === currentEp);
+    if (isAll) {
+      navLabel.textContent = '期数导航';
+      eps.forEach(e => {
+        const vc = visComments(e);
+        const a = document.createElement('a');
+        a.href = '#ep-' + e.key;
+        a.innerHTML = `<span class="dot" style="background:var(--accent)"></span>${e.title}<span class="cnt">${vc.length}</span>`;
+        a.dataset.target = 'ep-' + e.key;
+        navEl.appendChild(a);
+        const banner = document.createElement('div');
+        banner.className = 'ep-banner';
+        banner.id = 'ep-' + e.key;
+        banner.innerHTML = `<span class="badge">${e.title}</span>
+          <span class="meta">${e.episodeId} · 导出 ${e.export} · ${vc.length} 问 / ${vc.reduce((s,c)=>s+c.replies.length,0)} 回复 / ${vc.reduce((s,c)=>s+c.images.length,0)} 图</span>`;
+        sectionsEl.appendChild(banner);
+        DATA.modules.forEach(mod => {
+          const cs = vc.filter(c => c.module === mod.key);
+          if (!cs.length) return;
+          sectionsEl.appendChild(renderModuleSection(e.key, mod, cs, true));
+        });
+        tq += vc.length; tr += vc.reduce((s,c)=>s+c.replies.length,0); ti += vc.reduce((s,c)=>s+c.images.length,0);
+      });
+    } else {
+      navLabel.textContent = '知识点模块';
+      const e = eps[0];
       const vc = visComments(e);
-      const a = document.createElement('a');
-      a.href = '#ep-' + e.key;
-      a.innerHTML = `<span class="dot" style="background:var(--accent)"></span>${e.title}<span class="cnt">${vc.length}</span>`;
-      a.dataset.target = 'ep-' + e.key;
-      navEl.appendChild(a);
-      const banner = document.createElement('div');
-      banner.className = 'ep-banner';
-      banner.id = 'ep-' + e.key;
-      banner.innerHTML = `<span class="badge">${e.title}</span>
-        <span class="meta">${e.episodeId} · 导出 ${e.export} · ${vc.length} 问 / ${vc.reduce((s,c)=>s+c.replies.length,0)} 回复 / ${vc.reduce((s,c)=>s+c.images.length,0)} 图</span>`;
-      sectionsEl.appendChild(banner);
       DATA.modules.forEach(mod => {
         const cs = vc.filter(c => c.module === mod.key);
         if (!cs.length) return;
-        sectionsEl.appendChild(renderModuleSection(e.key, mod, cs, true));
+        const a = document.createElement('a');
+        a.href = '#' + mod.key;
+        a.innerHTML = `<span class="dot" style="background:${mod.color}"></span>${mod.name}<span class="cnt">${cs.length}</span>`;
+        a.dataset.target = mod.key;
+        navEl.appendChild(a);
+        sectionsEl.appendChild(renderModuleSection(e.key, mod, cs, false));
       });
-      tq += vc.length; tr += vc.reduce((s,c)=>s+c.replies.length,0); ti += vc.reduce((s,c)=>s+c.images.length,0);
-    });
+      tq = vc.length; tr = vc.reduce((s,c)=>s+c.replies.length,0); ti = vc.reduce((s,c)=>s+c.images.length,0);
+    }
+    document.getElementById('epName').textContent = isAll ? '第1-10期' : eps[0].title;
+    document.getElementById('heroSub').textContent = isAll
+      ? `全部期数合集 · 支持按【期数】或按【知识点】双维度浏览`
+      : `${eps[0].episodeId} · 导出 ${eps[0].export}`;
   } else {
-    navLabel.textContent = '物理模块';
-    const e = eps[0];
-    const vc = visComments(e);
-    DATA.modules.forEach(mod => {
-      const cs = vc.filter(c => c.module === mod.key);
-      if (!cs.length) return;
+    // 按知识点视图（跨期聚合）
+    navLabel.textContent = '知识点导航';
+    const mods = DATA.modules.filter(m => {
+      if (currentMod !== 'all') return m.key === currentMod;
+      return DATA.episodes.some(e => visComments(e).some(c => c.module === m.key));
+    });
+    mods.forEach(mod => {
+      const entries = [];
+      DATA.episodes.forEach(e => {
+        visComments(e).forEach(c => { if (c.module === mod.key) entries.push({ ep: e, c }); });
+      });
+      if (!entries.length) return;
       const a = document.createElement('a');
       a.href = '#' + mod.key;
-      a.innerHTML = `<span class="dot" style="background:${mod.color}"></span>${mod.name}<span class="cnt">${cs.length}</span>`;
+      a.innerHTML = `<span class="dot" style="background:${mod.color}"></span>${mod.name}<span class="cnt">${entries.length}</span>`;
       a.dataset.target = mod.key;
       navEl.appendChild(a);
-      sectionsEl.appendChild(renderModuleSection(e.key, mod, cs, false));
+      const sec = document.createElement('section');
+      sec.className = 'section';
+      sec.id = mod.key;
+      sec.style.setProperty('--sec-color', mod.color);
+      const nReply = entries.reduce((s, o) => s + o.c.replies.length, 0);
+      const nImg = entries.reduce((s, o) => s + o.c.images.length, 0);
+      const head = document.createElement('div');
+      head.className = 'sec-head';
+      head.innerHTML = `<span class="dot" style="background:${mod.color}"></span><h2>${mod.name}</h2>
+        <span class="badge">${entries.length} 问 · ${nReply} 回复${nImg ? ' · ' + nImg + ' 图' : ''}</span>`;
+      sec.appendChild(head);
+      const desc = document.createElement('div');
+      desc.className = 'sec-desc';
+      desc.textContent = mod.desc;
+      sec.appendChild(desc);
+      DATA.episodes.forEach(e => {
+        const cs = entries.filter(o => o.ep.key === e.key).map(o => o.c);
+        if (!cs.length) return;
+        const sub = document.createElement('div');
+        sub.className = 'ep-subhead';
+        sub.innerHTML = `<span class="epn">${e.title}</span><span class="c">${cs.length} 问</span>`;
+        sec.appendChild(sub);
+        cs.forEach(c => sec.appendChild(renderCommentCard(c, mod.color)));
+      });
+      sectionsEl.appendChild(sec);
+      tq += entries.length; tr += nReply; ti += nImg;
     });
-    tq = vc.length; tr = vc.reduce((s,c)=>s+c.replies.length,0); ti = vc.reduce((s,c)=>s+c.images.length,0);
+    const modObj = DATA.modules.find(m => m.key === currentMod);
+    document.getElementById('epName').textContent = currentMod === 'all' ? '全部知识点' : (modObj ? modObj.name : '');
+    document.getElementById('heroSub').textContent = currentMod === 'all'
+      ? `跨期聚合 · 同一知识点下的题目按期数排列`
+      : `${modObj ? modObj.desc : ''} · 跨期聚合`;
   }
 
-  document.getElementById('epName').textContent = isAll ? '第1-10期' : eps[0].title;
-  document.getElementById('heroSub').textContent = isAll
-    ? `全部期数合集 · 第4期数据缺失 · 其余各期均已包含`
-    : `${eps[0].episodeId} · 导出 ${eps[0].export}`;
   const items = [[tq, '个物理问题'], [tr, '条有效回复'], [ti, '张题图']];
   items.forEach(([n, t]) => {
     const d = document.createElement('div');
@@ -1003,9 +1078,10 @@ function render() {
   document.getElementById('favCount').textContent = favIds.length;
   document.getElementById('seenCount').textContent = seenIds.length;
   document.getElementById('favToggle').classList.toggle('on', favOnly);
+  document.getElementById('viewEp').classList.toggle('on', viewMode === 'episode');
+  document.getElementById('viewMod').classList.toggle('on', viewMode === 'module');
   setupScrollspy();
   doSearch();
-  // KaTeX 渲染公式
   if (window.renderMathInElement) {
     try {
       renderMathInElement(sectionsEl, { delimiters: [{left:'\\(', right:'\\)', display:false}], throwOnError:false });
@@ -1027,6 +1103,15 @@ function doSearch() {
   sectionsEl.querySelectorAll('.section').forEach(sec => {
     const any = Array.from(sec.querySelectorAll('.c-card')).some(c => c.style.display !== 'none');
     sec.style.display = any ? '' : 'none';
+  });
+  // 隐藏空的期数小标题（按知识点视图）
+  sectionsEl.querySelectorAll('.ep-subhead').forEach(sub => {
+    let nxt = sub.nextElementSibling, any = false;
+    while (nxt && !nxt.classList.contains('ep-subhead') && !nxt.classList.contains('section')) {
+      if (nxt.classList.contains('c-card') && nxt.style.display !== 'none') { any = true; break; }
+      nxt = nxt.nextElementSibling;
+    }
+    sub.style.display = any ? '' : 'none';
   });
   sectionsEl.querySelectorAll('.ep-banner').forEach(b => {
     let nxt = b.nextElementSibling, any = false;
@@ -1197,6 +1282,10 @@ document.getElementById('modalMask').addEventListener('click', e => {
   li3.innerHTML = '<span class="why">结构说明：</span>题图与头像已本地化到 _imgs/ 文件夹（B 站防盗链，浏览器直链无法显示），公式由 KaTeX 本地渲染；请保持 HTML 与 _imgs/、assets/ 目录完整。';
   ul.appendChild(li3);
 })();
+
+/* ---------- 视图切换 ---------- */
+document.getElementById('viewEp').onclick = () => { viewMode = 'episode'; buildTabs(); render(); };
+document.getElementById('viewMod').onclick = () => { viewMode = 'module'; buildTabs(); render(); };
 
 buildTabs();
 render();
