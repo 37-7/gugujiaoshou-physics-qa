@@ -1,0 +1,26 @@
+# WorkBuddy 项目数据（本地工作日志，不发布）
+.workbuddy/
+
+# 临时文件
+_*.txt
+_*.json
+_check.js
+_probe*
+*.pyc
+__pycache__/
+
+# 开发辅助/过时脚本
+analyze_*.py
+convert_all.py
+extract_*.py
+download_ep4.py
+check_katex.js
+gen_physics_viewer.py
+
+# 冗余的旧版 HTML（index.html 为准）
+第10期_评论区物理题集.html
+评论区物理题集_第1-10期合集.html
+
+# 系统文件
+.DS_Store
+Thumbs.db
